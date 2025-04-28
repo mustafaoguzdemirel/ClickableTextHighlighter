@@ -17,7 +17,7 @@ import androidx.appcompat.app.AppCompatActivity
 import java.util.Locale
 import java.util.regex.Pattern
 
-class MainActivityV2 : AppCompatActivity(), TextToSpeech.OnInitListener {
+class PlainTextActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var textView: TextView
     private lateinit var button: Button
@@ -26,7 +26,7 @@ class MainActivityV2 : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_new)
+        setContentView(R.layout.activity_main)
 
         initViews()
         initTTS()

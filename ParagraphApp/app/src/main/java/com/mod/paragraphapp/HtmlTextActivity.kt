@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity
 import org.xml.sax.XMLReader
 import java.util.*
 
-class MainActivityHtmlV2 : AppCompatActivity(), TextToSpeech.OnInitListener {
+class HtmlTextActivity : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     private lateinit var textView: TextView
     private lateinit var button: Button
@@ -25,7 +25,7 @@ class MainActivityHtmlV2 : AppCompatActivity(), TextToSpeech.OnInitListener {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main_new)
+        setContentView(R.layout.activity_main)
 
         initViews()
         initTTS()

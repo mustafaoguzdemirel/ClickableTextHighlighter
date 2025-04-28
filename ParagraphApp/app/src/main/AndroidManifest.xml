@@ -13,7 +13,7 @@
         android:theme="@style/Theme.ParagraphApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivityHtmlV2"
+            android:name=".HtmlTextActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
